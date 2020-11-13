@@ -29,7 +29,6 @@ public class Article {
     private List<Topic> topics;
 
 
-
     public Article() {
     }
 
@@ -64,9 +63,13 @@ public class Article {
         this.authorName = name;
     }
 
-    public String getBody() { return body; }
+    public String getBody() {
+        return body;
+    }
 
-    public void setBody(String body) { this.body = body; }
+    public void setBody(String body) {
+        this.body = body;
+    }
 
     public List<Topic> getTopics() {
         return topics;

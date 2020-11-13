@@ -48,9 +48,13 @@ public class Comment {
         this.authorName = name;
     }
 
-    public String getBody() { return body; }
+    public String getBody() {
+        return body;
+    }
 
-    public void setBody(String body) { this.body = body; }
+    public void setBody(String body) {
+        this.body = body;
+    }
 
     public Article getArticle() {
         return article;
